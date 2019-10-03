@@ -41,12 +41,12 @@
     background-color: #ddd;
   }
   footer {
-    height: 120px;
+    max-height: 50px;
   }
   footer section {
     text-align: center;
-    height: 110px;
-    background-color: #ddd;
+    max-height: 50px;
+    background-color: #aaa;
   }
   .navDisplay {
     display: flex;
