@@ -6,20 +6,17 @@
     font-family: "Open Sans",
     sans-serif; 
     font-size: 20px;
-    color: #444;
+    background-color: #728785;
     text-align: center;
     line-height: 1.5;
   }
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
+
+  nav {
+    /* padding: 1% 0; */
+    background-color: #000000;
     text-align: left;
   }
-  footer a {
-    font-size: 15px;
-    margin-left: 60px;
-  }
+
   nav {
     position: fixed;
     height: 100px;
@@ -28,64 +25,87 @@
     right: 0;
     z-index: 10;
   }
-  main {
-    margin-top: 100px;
-  }
-  section {
-    min-height: 100px;
-    /* padding: 6% 0; */
-    background-color: #bbb;
-  }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
-  footer {
-    max-height: 50px;
-  }
-  footer section {
-    text-align: center;
-    max-height: 50px;
-    background-color: #aaa;
-  }
   .navDisplay {
+    /* color: #3DFFEC; */
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
   }
+
   .myName {
     margin-left: 60px;
+    color: #76CCC3
   }
+
   .navLinks {
     display: none;
   }
+
   .hamburger {
     cursor: pointer;
     margin-top: 20px;
     margin-right: 60px;
   }
+
   .hamburger span {
     height: 5px;
     width: 35px;
-    background-color: black;
+    background-color: #3DFFEC;
     display: block;
     margin: 6px 0;
   }
-  header img {
+
+  main {
+    margin-top: 100px;
+    color: #3DFFEC;
+  }
+
+  /* section {
+    min-height: 100px;
+    border:2px solid red;
+  } */
+
+  .heroBio img {
+    background-color: #3DFFEC;
+    margin: 30px 0;
     max-width: 200px;
     max-height: 200px;
   }
-  .bio p {
-    margin: 0 30px;
+
+  .heroBio p {
+    margin: 30px;
   }
-  header p {
-    margin: 0 30px;
+
+  .bio {
+    margin: 30px;
   }
+
+  .project_one {
+    margin-top: 30px;
+  }
+
   .project_one img {
+    margin-top: 10px;
     max-width: 300px;
     max-height: 300px;
   }
+
+  .contact {
+    background-color: #000000;
+    max-height: 50px;
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 15px;
+    /* margin-left: 60px; */
+  }
+
+  footer a img {
+    background-color: #3DFFEC;
+  }
   @media (min-width: 768px) {
-    header img {
+    .heroBio img {
       max-width: 300px;
       max-height: 300px;
     }
@@ -96,14 +116,32 @@
     }
     .navLinks a {
       margin-right: 5px;
+      color: #76CCC3;
+      text-decoration: none;
     }
+
+    .navLinks a:visited {
+      text-decoration: underline;
+      text-decoration-color: #76CCC3
+    }
+
+    .navLinks a:hover {
+      text-decoration: underline;
+    }
+
+    .navLinks a:active {
+      text-decoration: underline;
+      background-color: #76CCC3;
+      color: #000000;
+    }
+
     .hamburger{
       display: none;
     }
     .bio p {
       margin: 0 45px;
     }
-    header p {
+    .heroBio p {
       margin: 0 45px;
     }
     .project_one img {
