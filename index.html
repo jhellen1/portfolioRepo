@@ -3,8 +3,9 @@
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav role="navigation">
@@ -27,7 +28,7 @@
         </div>
         <div class="linkDrop">
             <a data-link="bio" href="#">About</a>
-            <a data-link="project_one" href="#">Projects</a>
+            <a data-link="myProjects" href="#">Projects</a>
             <a data-link="footer" href="#">Contact</a>
         </div>
     </nav>
@@ -46,13 +47,21 @@
                 <li>I survive on coffee, cheeseburgers,</li>
                 <li>the occasional tv show (love Breaking Bad/Better Call Saul),</li>
                 <li>and spending time with my family.</li>
-                <li>By the way, I'm a front-end web developer.</li>
+                <li class="largeEmph">By the way, I'm a front-end web developer.</li>
+                <li>I am proficient with JavaScript/jQuery and</li>
+                <li>I have a passion for styling apps and web pages</li>
             </ul>
         </section>
 
-        <section class="project_one">
-            <a href="https://jhellen1.github.io/quizAppRepo/"><img src="https://i.imgur.com/tj7zZkq.jpg" title="source: imgur.com"/></a><br>
-           <p>1st Project 1 Paragraph<br>uibusdam hic nobis id odio ut. Doloremque quae ea pariatur fuga et ea dolore. Et nulla eligendi repellat dolor nihil saepe accusantium perspiciatis. Aut porro molestiae alias ad exercitationem voluptatem laboriosam.</p>
+        <section class="myProjects">
+            <div class="projectsHeading">
+                <h2>My Projects:</h2>
+            </div>
+
+            <div class="project_one">
+                <a href="https://jhellen1.github.io/quizAppRepo/"><img src="https://i.imgur.com/tj7zZkq.jpg" title="source: imgur.com"/></a><br>
+            <p>Rock Trivia App.  Think you know rock?  This app will test your knowledge!</p>
+            </div>
         </section>
 
     </main>

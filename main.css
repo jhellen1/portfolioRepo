@@ -3,8 +3,7 @@
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     /* background-color: #D7FAF3; */
     background-color: #ffffff;
@@ -56,6 +55,7 @@
 
   main {
     margin-top: 100px;
+    line-height: 3;
   }
 
   @keyframes slidein { 
@@ -124,10 +124,17 @@
   }
 
   .bio ul li {
-    line-height: 3;
+    font-weight: bolder;
+    /* line-height: 3; */
+  }
+
+  .bio ul .largeEmph {
+    font-size: larger;
+    font-weight: bold;
   }
 
   .bioItems {
+    margin-left: -40px;
     list-style: none;
     text-align: center;
   }
