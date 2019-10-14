@@ -9,16 +9,13 @@
     /* background-color: #D7FAF3; */
     background-color: #ffffff;
     text-align: center;
-    line-height: 2;
+    line-height: 1;
+    margin: 0 50px;
   }
 
   nav {
-    /* padding: 1% 0; */
     background-color: #000000;
     text-align: left;
-  }
-
-  nav {
     position: fixed;
     height: 100px;
     top: 0;
@@ -34,8 +31,9 @@
   }
 
   .myName {
-    margin-left: 60px;
-    color: #7BE0CC
+    margin-top: 3px;
+    margin-left: 30px;
+    color: #64F8FF
   }
 
   .navLinks {
@@ -45,13 +43,13 @@
   .hamburger {
     cursor: pointer;
     margin-top: 20px;
-    margin-right: 60px;
+    margin-right: 30px;
   }
 
   .hamburger span {
     height: 5px;
     width: 35px;
-    background-color: #7BE0CC;
+    background-color: #64F8FF;
     display: block;
     margin: 6px 0;
   }
@@ -76,6 +74,7 @@
     right: 100%;
     position: fixed;
     top: 100px;
+    height: 25px;
     width: 100%;
   }
 
@@ -91,13 +90,31 @@
   }
 
   .linkDrop a {
+    /* margin-top: -5px; */
+    color: #4FE898;
+    text-decoration: none;
     display: block;
     text-align: right;
     background-color: rgba(0, 0, 0, 0.25);
   }
 
+  .linkDrop a:visited {
+    text-decoration: underline;
+    color: #4FE898;
+  }
+
+  .linkDrop a:hover {
+    text-decoration: underline;
+  }
+
+  .linkDrop a:active {
+    text-decoration: underline;
+    background-color: #4FE898;
+    color: #000000;
+  }
+
   header {
-    margin: 130px 0;
+    margin-top: 130px;
   }
 
   .heroBio img {
@@ -106,8 +123,13 @@
     max-height: 300px;
   }
 
-  .bio {
-    margin: 30px;
+  .bio ul li {
+    line-height: 3;
+  }
+
+  .bioItems {
+    list-style: none;
+    text-align: center;
   }
 
   .project_one {
@@ -148,10 +170,14 @@
       max-height: 500px;
     }
 
+    .myName {
+      margin-left: 45px;
+    }
+
     .navLinks {
       display: inline-block;
-      margin-top: 25px;
-      margin-right: 60px;
+      margin-top: 35px;
+      margin-right: 30px;
     }
 
     .navLinks a {
@@ -163,7 +189,7 @@
 
     .navLinks a:visited {
       text-decoration: underline;
-      color: #7BE0CC;
+      color: #64F8FF;
     }
 
     .navLinks a:hover {
@@ -172,7 +198,7 @@
 
     .navLinks a:active {
       text-decoration: underline;
-      background-color: #7BE0CC;
+      background-color: #64F8FF;
       color: #000000;
     }
 
