@@ -6,9 +6,10 @@
     font-family: "Open Sans",
     sans-serif; 
     font-size: 20px;
-    background-color: #728785;
+    /* background-color: #D7FAF3; */
+    background-color: #ffffff;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
   }
 
   nav {
@@ -25,8 +26,8 @@
     right: 0;
     z-index: 10;
   }
+
   .navDisplay {
-    /* color: #3DFFEC; */
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@
 
   .myName {
     margin-left: 60px;
-    color: #76CCC3
+    color: #7BE0CC
   }
 
   .navLinks {
@@ -50,29 +51,23 @@
   .hamburger span {
     height: 5px;
     width: 35px;
-    background-color: #3DFFEC;
+    background-color: #7BE0CC;
     display: block;
     margin: 6px 0;
   }
 
   main {
     margin-top: 100px;
-    color: #3DFFEC;
   }
 
-  /* section {
-    min-height: 100px;
-    border:2px solid red;
-  } */
+  header {
+    margin: 130px 0;
+  }
 
   .heroBio img {
-    margin: 30px 0;
-    max-width: 200px;
-    max-height: 200px;
-  }
-
-  .heroBio p {
-    margin: 30px;
+    /* margin: 10px 0; */
+    max-width: 300px;
+    max-height: 300px;
   }
 
   .bio {
@@ -90,6 +85,13 @@
   }
 
   .contact {
+    /* background-color: #000000; */
+    max-height: 50px;
+    /* max-width: 100%; */
+    text-align: center;
+  }
+
+  .footer {
     background-color: #000000;
     max-height: 50px;
     text-align: center;
@@ -101,27 +103,31 @@
   }
 
   footer a img {
-    background-color: #3DFFEC;
+    background-color: #7BE0CC;
   }
+
   @media (min-width: 768px) {
     .heroBio img {
-      max-width: 300px;
-      max-height: 300px;
+      max-width: 500px;
+      max-height: 500px;
     }
+
     .navLinks {
       display: inline-block;
       margin-top: 25px;
       margin-right: 60px;
     }
+
     .navLinks a {
       margin-right: 5px;
-      color: #76CCC3;
+      color: #7BE0CC;
       text-decoration: none;
+      margin-right: 20px;
     }
 
     .navLinks a:visited {
       text-decoration: underline;
-      text-decoration-color: #76CCC3
+      color: #7BE0CC;
     }
 
     .navLinks a:hover {
@@ -130,25 +136,24 @@
 
     .navLinks a:active {
       text-decoration: underline;
-      background-color: #76CCC3;
+      background-color: #7BE0CC;
       color: #000000;
     }
 
     .hamburger{
       display: none;
     }
+
     .bio p {
       margin: 0 45px;
     }
+
     .heroBio p {
       margin: 0 45px;
     }
+
     .project_one img {
-      max-width: 400px;
-      max-height: 400px;
-    }
-    .ghLogo {
-      max-height: 32px;
-      max-width: 32px;
+      max-width: 500px;
+      max-height: 500px;
     }
   }
