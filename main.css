@@ -60,6 +60,39 @@
     margin-top: 100px;
   }
 
+  @keyframes slidein { 
+    from { 
+      right: 100%; 
+      /* width: 300%;  */
+    }
+    to { 
+      right: 0%; 
+      /* width: 100%;  */
+    } 
+  }
+
+  .linkDrop {
+    display: none;
+    right: 100%;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+  }
+
+  .linkDrop.showMenu {
+    display: block;
+    right: 0;
+    animation-duration: 1s; 
+    animation-name: slidein;
+    animation-timing-function: ease-out;
+  }
+
+  .linkDrop a {
+    display: block;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
   header {
     margin: 130px 0;
   }
