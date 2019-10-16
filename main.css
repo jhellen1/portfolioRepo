@@ -4,11 +4,10 @@
 
   body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
     background-color: #ffffff;
     text-align: center;
     line-height: 1;
-    /* margin: 0 50px; */
   }
 
   nav {
@@ -23,16 +22,19 @@
   }
 
   .navDisplay {
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
   }
 
   .myName {
-    font-size: 18px;
-    margin-top: 3px;
-    margin-left: 30px;
+    margin: 10px 0 0 30px;
     color: #64F8FF
+  }
+
+  .myName h1 {
+    margin: 0;
+    font-size: 20px;
   }
 
   .navLinks {
@@ -41,7 +43,7 @@
 
   .hamburger {
     cursor: pointer;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-right: 30px;
   }
 
@@ -55,15 +57,6 @@
 
   main {
     margin-top: 100px;
-  }
-
-  @keyframes slidein { 
-    from { 
-      right: 100%; 
-    }
-    to { 
-      right: 0%; 
-    } 
   }
 
   .linkDrop {
@@ -87,11 +80,13 @@
   }
 
   .linkDrop a {
+    margin-top: 5px;
     color: #4FE898;
     text-decoration: none;
     display: block;
     text-align: right;
     background-color: rgba(0, 0, 0, 0.25);
+    font-size: 14px;
   }
 
   .linkDrop a:visited {
@@ -187,27 +182,36 @@
     max-width: 32px;
   }
 
-  @media (min-width: 768px) {
-    .heroBio img {
-      max-width: 500px;
-      max-height: 500px;
+  @keyframes slidein { 
+    from { 
+      right: 100%; 
+    }
+    to { 
+      right: 0%; 
+    } 
+  }
+
+  @media (min-width: 850px) {
+
+    .myName h1 {
+      font-size: 24px;
     }
 
     .myName {
-      margin-left: 45px;
+      margin: 5px 0 0 30px;
     }
 
     .navLinks {
       display: inline-block;
-      margin-top: 35px;
-      margin-right: 30px;
+      /* margin-top: 30px; */
+      margin: 10px 10px 0 0;
     }
 
     .navLinks a {
-      margin-right: 5px;
       color: #7BE0CC;
       text-decoration: none;
       margin-right: 20px;
+      font-size: 16px;
     }
 
     .navLinks a:visited {
@@ -227,6 +231,11 @@
 
     .hamburger{
       display: none;
+    }
+
+    .heroBio img {
+      max-width: 500px;
+      max-height: 500px;
     }
 
     .bio p {
