@@ -8,7 +8,7 @@
     background-color: #ffffff;
     text-align: center;
     line-height: 1;
-    margin: 0 50px;
+    /* margin: 0 50px; */
   }
 
   nav {
@@ -117,7 +117,7 @@
   }
 
   .bio {
-    margin: 0 60px;
+    margin: 0 30px;
   }
 
   .bio ul li {
@@ -137,11 +137,11 @@
   }
 
   .project_one {
-    margin: 30px 80px 0;
+    margin: 30px 40px 0 40px;
   }
 
   .project_one img {
-    margin-top: 10px;
+    margin: 10px 0 0 0;
     max-width: 300px;
     max-height: 300px;
   }
@@ -157,11 +157,10 @@
 
   footer {
     background-color: #4F8EE8;
-    width: 100%;
-  }
+    }
 
   .footer {
-    margin: 0 100px;
+    margin: 0 30px;
     max-height: 32px;
     display: flex;
     justify-content: space-evenly;
