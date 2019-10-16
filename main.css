@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -29,6 +29,7 @@
   }
 
   .myName {
+    font-size: 18px;
     margin-top: 3px;
     margin-left: 30px;
     color: #64F8FF
@@ -136,8 +137,8 @@
     text-align: center;
   }
 
-  .project_one {
-    margin: 30px 40px 0 40px;
+  .project_one p {
+    margin: 0 40px;
   }
 
   .project_one img {
