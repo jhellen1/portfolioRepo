@@ -7,7 +7,7 @@
     /* font-size: 20px; */
     background-color: #ffffff;
     text-align: center;
-    line-height: 1;
+    line-height: 2.5;
   }
 
   nav {
@@ -22,13 +22,13 @@
   }
 
   .navDisplay {
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
   }
 
   .myName {
-    margin: 10px 0 0 30px;
+    margin: 0 0 0 30px;
     color: #64F8FF
   }
 
@@ -44,7 +44,7 @@
   .hamburger {
     cursor: pointer;
     /* margin-top: 20px; */
-    margin-right: 30px;
+    margin: 3px 30px 0 0;
   }
 
   .hamburger span {
@@ -69,6 +69,7 @@
   }
 
   .linkDrop.showMenu {
+    line-height: 1;
     background-color: #000000;
     display: flex;
     flex-direction: row;
@@ -107,6 +108,11 @@
     margin-top: 130px;
   }
 
+  .contentHeading {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
   .heroBio h2 {
     margin: 0;
   }
@@ -118,23 +124,22 @@
   }
 
   .bio {
-    margin: 0 20px;
+    margin: 0 40px;
   }
 
   .bio ul li {
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 2;
+    font-size: 18px;
+    font-weight: 500;
   }
 
   .bio ul .largeEmph {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
     margin: 15px 0;
   }
 
   .bio ul .emph {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
   }
 
@@ -144,18 +149,16 @@
     text-align: center;
   }
 
-  .project_one p {
-    margin: 0 40px;
-  }
-
   .project_one img {
     margin: 10px 0 0 0;
     max-width: 300px;
     max-height: 300px;
   }
 
-  .project_one {
-    line-height: 3;
+  .project_one p {
+    margin: 0 40px;
+    font-size: 16px;
+    font-weight: 600;
   }
 
   .contact {
@@ -164,6 +167,7 @@
   }
 
   footer {
+    margin-top: 40px;
     background-color: #4F8EE8;
     }
 
@@ -205,18 +209,26 @@
 
   @media (min-width: 768px) {
 
+    body {
+      line-height: 3;
+    }
+
     .myName h1 {
       font-size: 24px;
     }
 
     .myName {
-      margin: 5px 0 0 30px;
+      margin: 0 0 0 30px;
+    }
+
+    .navDisplay {
+      margin-top: 15px;
     }
 
     .navLinks {
       display: inline-block;
       /* margin-top: 30px; */
-      margin: 10px 10px 0 0;
+      margin: 15px 10px 0 0;
     }
 
     .navLinks a {
@@ -250,12 +262,8 @@
       max-height: 500px;
     }
 
-    .bio p {
-      margin: 0 45px;
-    }
-
-    .heroBio p {
-      margin: 0 45px;
+    .bio {
+      margin: 0;
     }
 
     .project_one img {
