@@ -50,7 +50,7 @@
   .hamburger span {
     height: 5px;
     width: 35px;
-    background-color: #64F8FF;
+    background-color: #6D57FF;
     display: block;
     margin: 6px 0;
   }
@@ -107,23 +107,35 @@
     margin-top: 130px;
   }
 
+  .heroBio h2 {
+    margin: 0;
+  }
+
   .heroBio img {
+    margin-top: 0;
     max-width: 300px;
     max-height: 300px;
   }
 
   .bio {
-    margin: 0 30px;
+    margin: 0 20px;
   }
 
   .bio ul li {
-    font-weight: bolder;
-    line-height: 3;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
   }
 
   .bio ul .largeEmph {
-    font-size: larger;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+  }
+
+  .bio ul .emph {
+    font-size: 18px;
+    font-weight: 500;
   }
 
   .bioItems {
@@ -191,7 +203,7 @@
     } 
   }
 
-  @media (min-width: 850px) {
+  @media (min-width: 768px) {
 
     .myName h1 {
       font-size: 24px;
@@ -208,7 +220,7 @@
     }
 
     .navLinks a {
-      color: #64F8FF;
+      color: #4FE898;
       text-decoration: none;
       margin-right: 20px;
       font-size: 16px;
@@ -216,7 +228,7 @@
 
     .navLinks a:visited {
       text-decoration: underline;
-      color: #64F8FF;
+      color: #4FE898;
     }
 
     .navLinks a:hover {
@@ -225,7 +237,7 @@
 
     .navLinks a:active {
       text-decoration: underline;
-      background-color: #64F8FF;
+      background-color: #4FE898;
       color: #000000;
     }
 
