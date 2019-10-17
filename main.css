@@ -7,7 +7,7 @@
     /* font-size: 20px; */
     background-color: #ffffff;
     text-align: center;
-    line-height: 2.5;
+    line-height: 1.5em;
   }
 
   nav {
@@ -22,7 +22,7 @@
   }
 
   .navDisplay {
-    margin-top: 25px;
+    margin-top: 27px;
     display: flex;
     justify-content: space-between;
   }
@@ -33,7 +33,7 @@
   }
 
   .myName h1 {
-    margin: 0;
+    margin-top: 12px;
     font-size: 20px;
   }
 
@@ -212,26 +212,22 @@
 
   @media (min-width: 768px) {
 
-    body {
-      line-height: 3;
-    }
-
     .myName h1 {
       font-size: 24px;
     }
 
     .myName {
-      margin: 0 0 0 30px;
+      margin: 3px 0 0 30px;
     }
 
     .navDisplay {
-      margin-top: 15px;
+      margin-top: 22px;
     }
 
     .navLinks {
       display: inline-block;
       /* margin-top: 30px; */
-      margin: 15px 10px 0 0;
+      margin: 17px 10px 0 0;
     }
 
     .navLinks a {
