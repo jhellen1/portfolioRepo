@@ -129,18 +129,18 @@
 
   .bio ul li {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .bio ul .largeEmph {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 900;
     margin: 15px 0;
   }
 
   .bio ul .emph {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 800;
   }
 
   .bioItems {
@@ -155,15 +155,45 @@
     max-height: 300px;
   }
 
+  .project_one h3 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .projOneSkills {
+    margin-left: -40px;
+  }
+
+  .topList {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .projOneSkills li.noList {
+    list-style: none;
+    display: inline;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .project_one .projOneText {
-    margin: 0 40px;
-    font-size: 16px;
+    margin: 0 60px;
+    font-size: 18px;
+    font-weight: 700;
+    
+  }
+
+  .projOneText h4 {
+    font-size: 15px;
     font-weight: 600;
   }
 
   .quizRepo {
     text-decoration: none;
     color: #000000;
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .quizRepo:visited {
