@@ -155,47 +155,50 @@
     max-height: 300px;
   }
 
-  .project_one p {
+  .project_one .projOneText {
     margin: 0 40px;
     font-size: 16px;
     font-weight: 600;
   }
 
+  .quizRepo {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .quizRepo:visited {
+    color: #000000
+  }
+
+  .quizRepo:hover {
+    text-decoration: underline;
+  }
+
+  .quizRepo:active {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
   .contact {
     max-height: 50px;
     text-align: center;
+    margin-top: 40px;
+    background-color: #000000;
   }
 
-  footer {
-    margin-top: 40px;
-    background-color: #4F8EE8;
-    }
-
-  .footer {
+  .footerChild {
     margin: 0 30px;
-    max-height: 32px;
+    height: 48px;
     display: flex;
     justify-content: space-evenly;
   }
 
-  footer a:visited {
-    color: #4F8EE8;
-  }
-
-  footer a:hover {
-    text-decoration: underline;
-  }
-
-  footer a:active {
-    text-decoration: underline;
-    background-color: #4F8EE8;
-    color: #000000;
-  }
-
   footer a img {
     background-color: #ffffff;
-    max-height: 32px;
-    max-width: 32px;
+    height: 32px;
+    width: 32px;
+    margin-top: 8px;
   }
 
   @keyframes slidein { 
@@ -271,7 +274,13 @@
       max-height: 500px;
     }
 
-    .footer {
+    .project_one .projOneText {
+      margin: 0 200px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .footerChild {
       margin: 0 200px;
     }
   }
