@@ -155,8 +155,12 @@
     max-height: 300px;
   }
 
-  .project_one h3 {
-    font-size: 22px;
+  .projectOneTitle {
+    margin-bottom: 15px;
+  }
+
+  .projectOneTitle .headingQuizRepo  {
+    font-size: 20px;
     font-weight: 600;
   }
 
@@ -196,15 +200,22 @@
     font-weight: 700;
   }
 
-  .quizRepo:visited {
+  .headingQuizRepo {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .quizRepo:visited, .headingQuizRepo:visited {
     color: #000000
   }
 
-  .quizRepo:hover {
+  .quizRepo:hover, .headingQuizRepo:hover {
     text-decoration: underline;
   }
 
-  .quizRepo:active {
+  .quizRepo:active, .headingQuizRepo:active {
     background-color: #000000;
     color: #ffffff;
     text-decoration: underline;
