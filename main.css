@@ -124,7 +124,7 @@
   }
 
   .bio {
-    margin: 0 40px;
+    margin: 0 35px;
   }
 
   .bio ul li {
@@ -178,7 +178,7 @@
   }
 
   .project_one .projOneText {
-    margin: 0 60px;
+    margin: 0 35px;
     font-size: 18px;
     font-weight: 700;
     
@@ -292,7 +292,7 @@
     }
 
     .bio {
-      margin: 0;
+      margin: 0 100px;
     }
 
     .project_one img {
@@ -301,7 +301,7 @@
     }
 
     .project_one .projOneText {
-      margin: 0 250px;
+      margin: 0 160px;
       font-size: 16px;
       font-weight: 600;
     }
