@@ -293,7 +293,7 @@
       color: #000000;
     }
 
-    .hamburger{
+    .hamburger, div.linkDrop.showMenu {
       display: none;
     }
 
